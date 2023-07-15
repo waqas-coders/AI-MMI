@@ -148,6 +148,31 @@ button:after{
 }
 
 
+/* Mobile Responsive Text Show */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main__title__company {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .cd-words-wrapper b {
+    font-size: 18px;
+  }
+}
+@media (max-width: 480px) {
+  .main__title__company{
+    font-size: 15px;
+  }
+}
+
+
 </style>
 
 
@@ -175,12 +200,12 @@ button:after{
                       Events <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown" id="my-dropdown-id">
-                      <li><a href="#" >Actions</a></li>
+                      <!-- <li><a href="#" >Actions</a></li>
                       <li><a href="#">Something else here</a></li>
                       <li class="separator"></li>
                       <li><a href="#">Seprated link</a></li>
                       <li class="separator"></li>
-                      <li><a href="#">One more seprated link.</a></li>
+                      <li><a href="#">One more seprated link.</a></li> -->
                     </ul>
                   </li>
                   <li class="navbar-dropdown">
@@ -188,12 +213,12 @@ button:after{
                       Publications <i class="fa fa-angle-down"></i>
                     </a>
                     <ul class="dropdown" id="blog">
-                      <li><a href="#">Some category</a></li>
+                      <!-- <li><a href="#">Some category</a></li>
                       <li><a href="#">Some another category</a></li>
                       <li class="separator"></li>
                       <li><a href="#">Seprated link</a></li>
                       <li class="separator"></li>
-                      <li><a href="#">One more seprated link.</a></li>
+                      <li><a href="#">One more seprated link.</a></li> -->
                     </ul>
                   </li>
                   <li><a href="#" style="color:#fff">About</a></li>
@@ -249,31 +274,56 @@ button:after{
             </svg>
           </div>
           <div class="main" style="font-size: 10;">
-            <div class="main__text-wrapper" style="font-size: 10;">
+            <!-- <div class="main__text-wrapper" style="font-size: 10;">
                 <h1 class="main__title__company">AI and Mathematical Modeling Innovations Lab</h1>
                 <h3>Provide</h3>
-                <div class="header-caption typo_text" id="page-top">
+                <div class="header-caption typo_text" id="page-top"> -->
                     <!-- type headline start-->
-                    <h3 class="cd-headline clip is-full-width typo_text">
+                    <!-- <h3 class="cd-headline clip is-full-width typo_text"> -->
                       <!-- STATIC TEXT -->
                       <!-- <span>I'm </span> -->
                       <!-- ROTATING TEXT -->
-                      <span class="cd-words-wrapper typo_text" style="width: 178px;">
+                      <!-- <span class="cd-words-wrapper typo_text" style="width: 178px;">
                         <b class="is-visible">Optimization Solutions</b>
                         <b class="is-hidden">Research and Development</b>
                         <b class="is-hidden">Digital Transformation</b>
-                      </span>
+                      </span> -->
                       <!-- STATIC TEXT -->
                       <!-- <span>.</span> -->
-                    </h3>
+                    <!-- </h3> -->
                     <!-- type headline end -->
-                  </div>
-                  
+                  <!-- </div> -->
+                <!-- </div> -->
                   <!-- Join Us -->
                   
                   <!-- <div class="join__us">
                     <button style="background-color:transparent; color:#fff" href="#"> Join Us</button>
                   </div> -->
+                  
+                  <div class="main__text-wrapper" style="font-size: 10px;">
+                    <h1 class="main__title__company mobile_text" style="font-size: 24px;">AI and Mathematical Modeling Innovations Lab</h1>
+                    <h3 style="font-size: 18px;">Provide</h3>
+                    <div class="header-caption typo_text mobile_text" id="page-top">
+                      <!-- type headline start-->
+                      <h3 class="cd-headline clip is-full-width typo_text" style="font-size: 16px;">
+                        <!-- STATIC TEXT -->
+                        <!-- <span>I'm </span> -->
+                        <!-- ROTATING TEXT -->
+                        <span class="cd-words-wrapper typo_text" style="width: 178px;">
+                          <b class="is-visible">Optimization Solutions</b>
+                          <b class="is-hidden">Research and Development</b>
+                          <b class="is-hidden">Digital Transformation</b>
+                        </span>
+                        <!-- STATIC TEXT -->
+                        <!-- <span>.</span> -->
+                      </h3>
+                      <!-- type headline end -->
+                    </div>
+                  </div>
+                  
+
+
+
 
      
               <svg xmlns="http://www.w3.org/2000/svg" class="dotted-circle" width="352" height="352" overflow="visible">
